@@ -1,0 +1,28 @@
+<center><h1>Lista de orçamentos</h1>
+<table border="1" width="50%" height="10%">
+    <thead>
+        <tr>
+            <th colspan="2">Total de clientes</th>
+        </tr>
+        <tr align="center">
+            <td colspan="2">{{Quantidade_Cliente}}</td>
+
+        </tr>
+        <tr>
+            <th>Nome</th>
+            <th>Valor</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td>{{orcamento_maior_custo.cliente.nome}}</td>
+            <td>{{orcamento_maior_custo.custo_total}}</td>
+        </tr>
+        <tr align="center">
+            <td>{{orcamento_menor_custo.cliente.nome}}</td>
+            <td>{{orcamento_menor_custo.custo_total}}</td>
+        </tr>
+    
+    </tbody>
+</table>
+</center>

@@ -1,0 +1,1 @@
+web: gunicorn mp_web.wsgi --log-file -
